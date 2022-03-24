@@ -8,19 +8,7 @@ VARIABLES
 
 /* MAIN STYLES */
 
-
-html::-webkit-scrollbar { display: none;}
-  
-  /* Hide scrollbar for IE, Edge and Firefox */
-  .example {-ms-overflow-style: none;  /* IE and Edge */ scrollbar-width: none;  /* Firefox */}
-
-html {
-    scroll-snap-type: y mandatory;
-    overflow: scroll;
-}
-
 body {
-    background-color: #F5F5F5;
     color: #211F1C;
 }
 
@@ -30,7 +18,13 @@ main {
     font-weight: 300;
 }
 
-#main_text a, #bottom_bio a {
+#intro {
+    margin: auto;
+    margin-top: 260px;
+    width: 800px;
+}
+
+a {
     background: linear-gradient(to bottom, transparent 0, transparent 60%, rgba(0, 131, 255, 0.2) 60%, rgba(0, 119, 184, 0.2) 100%);
     color: #211F1C;
     /* color: #5CC6FF; */
@@ -38,73 +32,8 @@ main {
     transition: color 0.5s ease-in-out;
 }
 
-#main_text a:hover, #bottom_bio a:hover  {
+a:hover {
     background: #0077B8;
     color: #F5F5F5;
     transition: all 0.25s;
-}
-
-h1 { font-family: 'Montserrat Alternates', sans-serif; font-weight: 700;}
-h2 { font-family: 'Montserrat Alternates', sans-serif; font-weight: 400;}
-
-div, h1, h2 {margin: 0;}
-
-.fa-brands, .fa-solid {
-    font-size: 1.3em; 
-    letter-spacing: 0.5em; 
-    color: #211F1C;
-    transition: color 0.25s;
-}
-
-.fa-brands:hover, .fa-solid:hover {
-    color: #5f5e5b;
-    transition: all 0.25s;
-}
-
-hr {
-    width: 40vw;
-    height: 1.5px;
-    border: none;
-    background-color: #211F1C;
-    margin: 0px auto;
-}
-
-/* navigation */
-
-body {
-    margin: 0;
-}
-
-#intro {
-    margin: auto;
-    padding-top: 260px;
-    width: 800px;
-    height: calc(100vh - 260px);
-    scroll-snap-align: start;
-}
-
-#bio {
-    margin: 0 auto;
-    width: 850px;
-    height: 100vh;
-    padding-top: 1px;
-    scroll-snap-align: start;
-    scroll-snap-stop: normal;
-}
-
-#top_bio {max-height: 50vh; width: 100%; margin: 50px 0 75px 0;}
-
-#text_bio {padding: 75px 0px 25px 0px; display: inline-block;}
-
-#name_bio {margin: 10px 0 10px -5px; font-size: 3em;}
-#description_bio {font-size: 1em;}
-
-#profile_photo {height: 300px; width: 300px; display: inline-block;
-    position: absolute; right: 18.75vw;
-}
-
-#bottom_bio {
-    padding: 0px 20px;
-    font: 0.775em Lato, sans-serif;
-    line-height: 2em;
 }
