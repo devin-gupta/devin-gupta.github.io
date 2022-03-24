@@ -6,10 +6,12 @@
         <link href="main.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat+Alternates:wght@400;700&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
-        <!-- add favicon -->
+        <script src="https://kit.fontawesome.com/5bb32fca2c.js" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" type="image/x-icon" href="http://cdn.sstatic.net/stackoverflow/img/favicon.ico">
         <meta name="Description" content="add a good description">
+        <script src="animations.js"></script>
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-JMCNDPDJBB"></script>
@@ -20,9 +22,9 @@
 
         gtag('config', 'G-JMCNDPDJBB');
         </script>
-
+        
     </head>
-    <body>
+    <body onload="typeWriter()">
         <main>
             <div id="intro">
                 <p id="main_text">
@@ -32,6 +34,40 @@
     
                     Here's my <a href="https://www.linkedin.com/in/devin-gupta/">Linkedin profile</a>. If you'd like to get in touch, please email me at <a href="mailto:devin.gupta.dg@gmail.com">devin.gupta.dg@gmail.com</a>. <br><br>
                 </p>
+            </div>
+            <div id="bio">
+                <div id="top_bio">
+                    <div id="text_bio">
+                        <a href="https://github.com/devin-gupta"><i class="fa-brands fa-github"></i></a>
+                        <!-- <a href="https://twitter.com/tsunamidevG1"><i class="fa-brands fa-twitter"></i></a> -->
+                        <a href="https://www.instagram.com/devin.gupta/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="mailto:devin.gupta.dg@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                        <h1 id="name_bio">Devin Gupta</h1>
+                        <h2 id="description_bio"></h2>
+                    </div>
+                    <img src="profile.png" alt="here's my profile photo!" id="profile_photo">
+                </div>
+                <hr>
+                <div id="bottom_bio">
+                    <p>
+                        I'm currently exploring the next frontier of journalism. From <a href="https://elestoque.org/clubgoals/">interactive story development</a> to <a href="https://open.spotify.com/show/1PevdG0tpYxGlt8D6W64WL">investigative podcasting</a>, my work
+                        breaks out of traditional writing formats to engage with audiences in a new
+                        way. My hope is that through captivating readers, I can inspire <a href="https://elestoque.org/2020/10/26/special/lloyd-holmes-a-deeper-look/">social
+                            activism</a> and <a href="https://elestoque.org/2020/09/22/news/candidates-running-for-cupertino-city-council/">political awareness</a>.
+                    </p>
+                    <p>
+                        I also have keen interest in <a href="https://stanforddaily.com/2021/04/20/the-price-we-must-all-pay-carbon-pricing/">carbon pricing</a>,
+                        research about access to economic opportunity and emerging applications
+                        of physics and math. I aspire to work in public policy creation, focused on
+                        solving the big emerging challenges facing my generation. Tomorrow needs
+                        interdisciplinary thinkers to solve complex global issues. 
+                    </p>
+                    <p>
+                        In my spare time,
+                        love to go hiking with friends, listen to podcasts (freakonomics!), theorize
+                        about human-powered flight, and interview my high school's alumni.
+                    </p>
+                </div>
             </div>
         </main>   
     </body>
