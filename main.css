@@ -10,19 +10,21 @@ VARIABLES
 
 body {
     color: #211F1C;
-    background-color: #fcf8ed;
+    background-color: #faf7f0;
 }
 
 main {
     font-family: lato;
-    font-size: 1.3em;
+    font-size: 1.4em;
     font-weight: 300;
 }
 
 #intro {
-    margin: auto;
+    margin: 21% auto;
+    width: 55%;
+    /* margin: auto;
     margin-top: 260px;
-    width: 800px;
+    width: 800px; */
 }
 
 a {
@@ -41,7 +43,12 @@ a:hover {
 
 @media only screen and (max-width: 840px) {
     #intro {
-        margin: 37% 10%;
+        margin: 31% 10%;
         width: auto;
     }
+
+    #main {
+        font-size: 1.3em;
+    }
+
 }
