@@ -5,7 +5,52 @@ export default function Work() {
         <p id='bio' className='paragraph'> 
             {/* Much of my experience has been in 'computational social science', applying engineering skills to ensure our political and social systems work effectively.  */}
             For the most updated verson of my work history, please check out my <a href="https://www.linkedin.com/in/devin-gupta/" target="_blank">Linkedin</a> or my <a href="https://docs.google.com/document/d/1-0lO2Nq_y5oTgNPq-1ncS7WvLHkF6KrgIg3cMTMywuY/edit?usp=sharing" target="_blank">resume</a>.  
-            <br /> <br /> <br />
+            <br /> <br />
+
+            <b>Summer Associate, Propietary Research</b> @ <a href="https://www.bamfunds.com/" target="_blank">Balyasny Asset Management</a><br />
+            (Summer 2024): Interned under PM Stephen Schurr in Long/Short equities at a multi-strategy hedge fund with ~$24b AUM.
+        </p>
+        <ul className="list-disc paragraph"> <br />
+            <li className="ml-5"><i>Data Pipeline for Centralized Research:</i> integrated alternative data sources into propietary data platform, enabling better "thematic" equity understanding for fundamental investing.</li>
+            <li className="ml-5"><i>Fundamental Investing:</i> pitched and led investments in 3 short positions, within semiconductor supply chain investments. Did diligence including sell-side & expert interviews, and financial model analysis. </li>
+            <li className="ml-5"><i>Applied AI for Investing:</i> built on top of BAM's embedding models for semantic mapping and visualization. Implemented scalabale data extraction techniques like Apache Spark or using AWS Redshfit.</li>
+            <br />
+        </ul>
+        <div className="grid grid-cols-3 gap-4">
+            <div>
+                <img className="h-auto max-w-full rounded-lg" src="/images/nyc_bam.jpg" alt="" />
+            </div>
+            <div className='col-span-2'>
+                <img className="h-auto max-w-full rounded-lg" src="/images/nyc_golf.jpg" alt="" />
+            </div>
+            <div className='col-span-2'>
+                <img className="h-auto max-w-full rounded-lg" src="/images/nyc_dinner.jpg" alt="" />
+            </div>
+            <div>
+                <img className="h-auto max-w-full rounded-lg" src="/images/nyc_city.jpg" alt="" />
+            </div>
+        </div>
+        <p  id='bio' className='paragraph'>
+            <br />
+            <b>Quantitative Research Intern</b> @ <a href="https://www.atomicvaults.com/" target="_blank">Atomic Vaults</a><br />
+            (Fall 2023): Joined a finance technology startup bringing fractional options to market, via propietary risk management and trading algorithms. I worked on:
+        </p>
+        <ul className="list-disc paragraph"> <br />
+            <li className="ml-5"><i>Analyzed Options Chain:</i> leveraged on-exchange options data to discover latent retail demand for fractional options, analyzing delta distributions around stock splits. Involved UAT testing of new data pipelines, pulling cloud data and robust data visualization.</li>
+            <li className="ml-5"><i>Sourced Angel Investors:</i> helped lead sourcing and strategy for seed round, developing strong networks in fintech VC and retail investing, specifically focused on angels around fractional options for directly-indexed SMAs and the RIA market. </li>
+            <li className="ml-5"><i>Led Wealth Management Division:</i> built partnerships across tech stack, from generating client interest, creating buy-in from 4 large options-focused RIAs, 3 relevant introducing brokers, 5 asset managers and 3 major custodians.  </li>
+        </ul>
+        <br />
+        <div className="grid grid-cols-2 gap-4">
+            <div>
+                <img className="h-auto max-w-full rounded-lg" src="/images/av_mindspace.jpg" alt="" />
+            </div>
+            <div>
+                <img className="h-auto max-w-full rounded-lg" src="/images/av_selfie.jpg" alt="" />
+            </div>
+        </div>
+        <p  id='bio' className='paragraph'>
+            <br /> 
             <b>Engineering and Tech Policy Intern</b> @ <a href="https://www.ducoexperts.com/" target="_blank">Duco Experts</a><br />
             (Summer 2023): Worked at a technology policy consulting startup that helps large tech clients (like Meta's Oversight Board and the Atlantic Council) in Generative AI, the Metaverse, platform security and Trust & Safety. In my 12 weeks there, I took on the following projects: 
         </p>
