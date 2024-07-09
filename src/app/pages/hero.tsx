@@ -49,9 +49,9 @@ export default function Hero() {
           </div>
         </div>
 
-        <p id='extended bio' className='paragraph'> Academically, I'm interested in understanding and <a href="https://github.com/devin-gupta/socialnetwork/blob/main/main.ipynb" target="_blank">modeling human behavior</a> through algorithimic and machine learning methods, specifically within networks. I've found my interests are often lie across fields, hence I find myself interested in topics from finance (like propogating risk through supply chain models), political theory (backtesting IRV systems), robotics (decentralized swarm controllers), and physics (quantum computing & optics). 
+        <p id='extended bio' className='paragraph'> Academically, I'm interested in understanding and <a href="https://github.com/devin-gupta/socialnetwork/blob/main/main.ipynb" target="_blank">modeling human behavior</a> through algorithimic and machine learning methods, often within networks. I've found my interests are often lie across fields, hence I find myself interested in topics from finance (like semiconductor supply chains), robotics (multi-agent negotiation problems), political theory (backtesting IRV systems), and physics (<a href="https://github.com/nonohuff/ACES" target="_blank">quantum information</a>). 
         <br /> <br />
-        At Stanford, I participate in the Undergraduate Physics Society, Stanford BCI and Stanford EA. You might also find me at the <a href="https://rain.stanford.edu/" target="_blank">RAIN seminar</a> or the <a href="https://dschool.stanford.edu/" target="_blank">d.school</a> working on physics problems. I sometimes hike at Castle Rock, visit friends at Berkeley, and boulder at Stanford's climbing gym.
+        At Stanford, I participate in the Undergraduate Physics Society, Stanford Student Robotics and Stanford EA. You might also find me at the <a href="https://rain.stanford.edu/" target="_blank">RAIN seminar</a> or the <a href="https://dschool.stanford.edu/" target="_blank">d.school</a> working on physics problems. I sometimes hike at Castle Rock, visit friends at Berkeley, and boulder at Stanford's climbing gym.
         <br /> <br />
         My most favorite way to spend time is to meet new people, please don't hesitate to reach out. Send me an email <a href="mailto:devgupta@stanford.edu" target="_blank">here</a>! </p>
       </div>

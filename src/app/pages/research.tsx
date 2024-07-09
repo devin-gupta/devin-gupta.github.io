@@ -3,9 +3,17 @@ export default function Research() {
       <div>
         <h1 id='tagline' className='font-semibold text-2xl font-sans my-10'> my research 🥼 </h1>
         <p id='bio' className='paragraph'> 
-            I've done some research within computational social science, applying data analysis skills to ensure our political and social systems work effectively. 
+          I'm currently learning about multi-agent interaction within robotics. Specifically, how does machine learning allow us to learn from mistakes and achieve broader task generalization? <br /> <br /> 
+            {/* SAIL */}
+            <b><a href="https://ai.stanford.edu/" target="_blank">Stanford Artificial Intelligence Labratory</a></b> @ Stanford<br />
+            (Oct 2023 - Pres): Developing robust imitation learning with mode switching to prevent compounding distributional shifts in evaluation, focusing on human-robot interaction based learning within Prof. Dorsa Sadigh’s lab <a href="https://iliad.stanford.edu/" target="_blank">ILIAD</a>, under PhD Joey Hejna. &emsp; <br />
+            [ <em>upcoming</em> ]
+                <br /> <br />
+            <hr className="my-3 border-0 h-px"/>
+            <br />
+            I've also done some research within computational social science, applying data analysis skills to ensure our political and social systems work effectively. 
             {/* For the most updated verson of my research history, please check out my <a href="https://www.linkedin.com/in/devin-gupta/" target="_blank">Linkedin</a> or my <a href="https://docs.google.com/document/d/1-0lO2Nq_y5oTgNPq-1ncS7WvLHkF6KrgIg3cMTMywuY/edit?usp=sharing" target="_blank">resume</a>.   */}
-                <br /> <br /> <br />
+                <br /> <br /> 
             {/* CDDRL */}
             <b><a href="https://cddrl.fsi.stanford.edu/" target="_blank">Center for Democracy, Development and Rule of Law</a></b> @ Stanford<br />
             (Jan - Jun 2023): Analyzed variance of academic results, specifically casual inference in academia-government collaboration, for the 2022 King's County Metro Data Challenge under Prof. Margaret Levi.&emsp; <br />
