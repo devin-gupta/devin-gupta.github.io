@@ -6,7 +6,7 @@ export default function Research() {
           I'm currently learning about multi-agent interaction within robotics. Specifically, how does machine learning allow us to learn from mistakes and achieve broader task generalization? <br /> <br /> 
             {/* SAIL */}
             <b><a href="https://ai.stanford.edu/" target="_blank">Stanford Artificial Intelligence Labratory</a></b> @ Stanford<br />
-            (Oct 2023 - Pres): Developing robust imitation learning with mode switching to prevent compounding distributional shifts in evaluation, focusing on human-robot interaction based learning within Prof. Dorsa Sadigh’s lab <a href="https://iliad.stanford.edu/" target="_blank">ILIAD</a>, under PhD Joey Hejna. &emsp; <br />
+            (Oct 2023 - Feb 2024): Developing robust imitation learning with mode switching to prevent compounding distributional shifts in evaluation, focusing on human-robot interaction based learning within Prof. Dorsa Sadigh’s lab <a href="https://iliad.stanford.edu/" target="_blank">ILIAD</a>, under PhD Joey Hejna. &emsp; <br />
             [ <em>upcoming</em> ]
                 <br /> <br />
             <hr className="my-3 border-0 h-px"/>

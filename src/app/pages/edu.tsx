@@ -35,7 +35,7 @@ export default function Edu() {
             <li className="ml-5">61: Mechanics and Special Relativity - Lorentz transformations, space-time invariance and causality, by Prof. Pat Burchat!</li>
             <li className="ml-5">71: Quantum and Thermal Physics - uncertainty principle, wave equations, fourier transforms and some stat mech. </li>
             <li className="ml-5">81: E&M using Special Relativity and Vector Calculus - symmetry proofs, Maxwell's equations, electromagnetic waves. </li>
-            <li className="ml-5">112: Mathematical Models for Physics - group theory and group theory by Professor Kivelson. </li>
+            <li className="ml-5">112: Mathematical Models for Physics - group theory and complex analysis by Professor Kivelson. </li>
             <li className="ml-5">113: Computational Physics - monte carlo and numerical methods for PDEs including stability analysis, with final paper on <a href="https://github.com/devin-gupta/class_notes/blob/main/physics113/Quantum_Algos_Final/README.md" target="_blank">implementing Shor's and Grover's algorithms</a>. </li>
             <br />
             <b>Math</b>
