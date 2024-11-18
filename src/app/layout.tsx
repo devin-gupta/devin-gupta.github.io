@@ -34,6 +34,7 @@ export default function RootLayout({
         <meta charSet="utf-8" />
         <meta name="robots" content="index, follow" />
         <link rel="icon" href="/images/favicon.ico" sizes="any" />
+        <meta name="google-site-verification" content="_ToCD-7eR7PIWnJYeer0CVpFacav4PdpclPaO-6UONw" />
         <GoogleAnalytics />
 
         {/* open graph meta tags */}
