@@ -1,7 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import GoogleAnalytics from '@/components/seo/GoogleAnalytics';
+import GoogleAnalytics from '@/components/seo/GoogleAnalytics'
+import PageTracker from '@/components/seo/PageTracker';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -10,7 +11,6 @@ export const metadata: Metadata = {
   title: 'Devin Gupta',
   description: 'Stanford Undergrad \'26',
   keywords: 'devin gupta stanford cupertino monta vista balyasny 26',
-  viewport: 'width=device-width, initial-scale=1.0',
   robots: 'index, follow',
   openGraph: {
     type: 'website',
@@ -20,6 +20,11 @@ export const metadata: Metadata = {
     title: 'Devin Gupta',
     description: 'Stanford Undergrad \'26',
   },
+}
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1.0,
 }
 
 export default function RootLayout({
@@ -50,7 +55,10 @@ export default function RootLayout({
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <PageTracker />
+        {children}
+      </body>
     </html>
   )
 }
