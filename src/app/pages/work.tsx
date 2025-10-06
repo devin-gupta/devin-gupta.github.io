@@ -5,8 +5,35 @@ export default function Work() {
         <p id='bio' className='paragraph'> 
             {/* Much of my experience has been in 'computational social science', applying engineering skills to ensure our political and social systems work effectively.  */}
             For the most updated verson of my work history, please check out my <a href="https://www.linkedin.com/in/devin-gupta/" target="_blank">Linkedin</a> or my <a href="https://docs.google.com/document/d/1-0lO2Nq_y5oTgNPq-1ncS7WvLHkF6KrgIg3cMTMywuY/edit?usp=sharing" target="_blank">resume</a>.  
-            <br /> <br />
-
+        </p>
+        {/* DISTYL AI */}
+        <p id='bio' className='paragraph'>
+            <br />
+            <b>Intern, AI Research</b> @ <a href="https://distyl.ai/" target="_blank">Distyl AI</a><br />
+            (Summer 2025): Researched building LLM-based 'systems' and browser agents for Series-B AI consultancy as research hire #7 at <a href='https://www.bizjournals.com/sanfrancisco/news/2025/09/26/dystal-ai-unicorn-headquarters-55-hawthorne.html?ana=giftarticle&utm_campaign=giftarticle&csrc=6452&gift_article_id=47849' target="_blank">~100m in F50 revenue</a>.
+        </p>
+        <ul className="list-disc paragraph"> <br />
+            <li className="ml-5"><i>Automated Value Discovery 'Button':</i> built LLM-driven research system that autonomously generated $100 M-scale strategic ideas for Fortune 50 clients. Integrated Exa and SerpAPI search with iterative reasoning and prompt-augmentation loops; used in three enterprise demos and contributed to an internal product that later landed a client contract. </li>
+            <li className="ml-5"><i>Browser Agents:</i> led development of hierarchical-planning technique for Distyl’s internal browser model, improving task-completion on the WebArena benchmark by ~20% (shopping-admin environment), via GPT-5 reasoning and browserbase cloud execution.</li>
+            <br />
+        </ul>
+        <div className="grid grid-cols-3 gap-4">
+            <div className="col-span-2">
+                <img className="h-auto max-w-full rounded-lg" src="/images/distyl_research.jpg" alt="" />
+            </div>
+            <div>
+                <img className="h-auto max-w-full rounded-lg" src="/images/distyl_devin.jpg" alt="" />
+            </div>
+            <div>
+                <img className="h-auto max-w-full rounded-lg" src="/images/distyl_charcuterie.jpg" alt="" />
+            </div>
+            <div className="col-span-2">
+                <img className="h-auto max-w-full rounded-lg" src="/images/distyl_tmobile.jpg" alt="" />
+            </div>
+        </div>
+        {/* BALYASNY ASSET MANAGEMENT */}
+        <p id='bio' className='paragraph'>
+            <br />
             <b>Summer Associate, Propietary Research</b> @ <a href="https://www.bamfunds.com/" target="_blank">Balyasny Asset Management</a><br />
             (Summer 2024): Interned under PM Stephen Schurr in Long/Short equities at a multi-strategy hedge fund with ~$24b AUM.
         </p>
@@ -30,6 +57,7 @@ export default function Work() {
                 <img className="h-auto max-w-full rounded-lg" src="/images/nyc_city.jpg" alt="" />
             </div>
         </div>
+        {/* ATOMIC VAULTS */}
         <p  id='bio' className='paragraph'>
             <br />
             <b>Quantitative Research Intern</b> @ <a href="https://www.atomicvaults.com/" target="_blank">Atomic Vaults</a><br />
@@ -49,6 +77,7 @@ export default function Work() {
                 <img className="h-auto max-w-full rounded-lg" src="/images/av_selfie.jpg" alt="" />
             </div>
         </div>
+        {/* DUCO */}
         <p  id='bio' className='paragraph'>
             <br /> 
             <b>Engineering and Tech Policy Intern</b> @ <a href="https://www.ducoexperts.com/" target="_blank">Duco Experts</a><br />

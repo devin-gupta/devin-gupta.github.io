@@ -2,7 +2,7 @@ export default function Hero() {
     return (
       <div>
         <h1 id='tagline' className='font-semibold text-2xl font-sans my-10'> hey! i'm devin 🙋🏽‍♂️ </h1>
-        <p id='bio' className='paragraph'> I'm an undergrad at <a href='https://www.stanford.edu' target="_blank">Stanford University</a> where I'm studying physics and management science. But I'm also fascinated by carbon pricing, human-powered flight, social mobility economics and journalism tech.</p>
+        <p id='bio' className='paragraph'> I'm an undergrad at <a href='https://www.stanford.edu' target="_blank">Stanford University</a> where I'm studying physics and computer science. But I'm also fascinated by social mobility economics, carbon pricing, human-powered flight and journalism tech.</p>
         
         <div id='imgallery' className='my-5'>
           <div className="flex flex-wrap md:-m-2">
