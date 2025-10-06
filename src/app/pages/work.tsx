@@ -10,10 +10,10 @@ export default function Work() {
         <p id='bio' className='paragraph'>
             <br />
             <b>Intern, AI Research</b> @ <a href="https://distyl.ai/" target="_blank">Distyl AI</a><br />
-            (Summer 2025): Researched building LLM-based 'systems' and browser agents for Series-B AI consultancy as research hire #7 at <a href='https://www.bizjournals.com/sanfrancisco/news/2025/09/26/dystal-ai-unicorn-headquarters-55-hawthorne.html?ana=giftarticle&utm_campaign=giftarticle&csrc=6452&gift_article_id=47849' target="_blank">~100m in F50 revenue</a>.
+            (Summer 2025): Researched and built LLM-based 'systems' and browser agents for Series-B AI consultancy as research hire #7 at <a href='https://www.bizjournals.com/sanfrancisco/news/2025/09/26/dystal-ai-unicorn-headquarters-55-hawthorne.html?ana=giftarticle&utm_campaign=giftarticle&csrc=6452&gift_article_id=47849' target="_blank">~100m in F50 revenue</a>.
         </p>
         <ul className="list-disc paragraph"> <br />
-            <li className="ml-5"><i>Automated Value Discovery 'Button':</i> built LLM-driven research system that autonomously generated $100 M-scale strategic ideas for Fortune 50 clients. Integrated Exa and SerpAPI search with iterative reasoning and prompt-augmentation loops; used in three enterprise demos and contributed to an internal product that later landed a client contract. </li>
+            <li className="ml-5"><i>Automated Value Discovery 'Button':</i> co-developed LLM-driven research system that autonomously generated $100 M-scale strategic ideas for Fortune 50 clients. Integrated Exa and SerpAPI search with iterative reasoning and prompt-augmentation loops; used in three enterprise demos and later advanced a client contract. </li>
             <li className="ml-5"><i>Browser Agents:</i> led development of hierarchical-planning technique for Distyl’s internal browser model, improving task-completion on the WebArena benchmark by ~20% (shopping-admin environment), via GPT-5 reasoning and browserbase cloud execution.</li>
             <br />
         </ul>

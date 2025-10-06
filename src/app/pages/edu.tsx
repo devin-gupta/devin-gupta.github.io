@@ -2,7 +2,7 @@ export default function Edu() {
     return (
       <div>
         <h1 id='tagline' className='font-semibold text-2xl font-sans my-10'> my education ✍🏽 </h1>
-        <p id='bio' className='paragraph'> I'm currently a junior at <a href="https://www.stanford.edu/" target="_blank">Stanford</a> pursuing degrees in <b>Physics</b> and <b>Management Science & Engineering</b> with a minor in <b>Math</b>. These broadly map to my academic interests in decentralized networking and algorithimic thinking, within the fields of robotics, market design and climate-tech.
+        <p id='bio' className='paragraph'> I'm currently a junior at <a href="https://www.stanford.edu/" target="_blank">Stanford</a> pursuing degrees in <b>Physics</b> and <b>Computer Science</b> with a minor in <b>Math</b>. These broadly map to my academic interests in decentralized networking and algorithimic thinking, within the fields of robotics, market design and climate-tech.
         <br />
         </p>
         <p className='paragraph'>
@@ -17,7 +17,7 @@ export default function Edu() {
             <br />
             Earlier, I graduated from <a href="https://mvhs.fuhsd.org/" target="_blank">Monta Vista High School</a> in 2022, where I primarily led business and tech for <a href="https://elestoque.org/staff_name/devin-gupta/">El Estoque</a>. I also acted as class president at a time and co-presided the school's mock trial team.
             <br /><br />
-            I've also been lucky to be able to attend some amazing conferences like Horizon Quantum's Triple Alpha launch, Citadel's 2024 Trading Invitational, TechCrunch Disrupt 2023, GCP's Fall Workshop and Cal Hacks. For any journalists, I'm an alum of <a href="https://www.medill.northwestern.edu/journalism/high-school-programs/medill-cherubs.html" target="_blank">Medill's Cherubs program</a> and have attended many JEA, NSPA and SNO workshops.
+            I've also been lucky to be able to attend some amazing conferences like <a href='https://openai.com/devday/' target="_blank">OpenAI DevDay</a>, Horizon Quantum's Triple Alpha launch, Citadel's 2024 Trading Invitational, TechCrunch Disrupt 2023, GCP's Fall Workshop and Cal Hacks. For any journalists, I'm an alum of <a href="https://www.medill.northwestern.edu/journalism/high-school-programs/medill-cherubs.html" target="_blank">Medill's Cherubs program</a> and have attended many JEA, NSPA and SNO workshops.
             <br /><br />
             I'm currently learning Spanish and Mandarin at Stanford, and speak (some) Hindi and English. And I like to play the acoustic guitar sometimes - currently learning '<a href="https://tabs.ultimate-guitar.com/tab/john-mayer/slow-dancing-in-a-burning-room-tabs-449994" target="_blank">Slow Dancing in a Burning Room</a>' by John Mayer.
             <br /><br />
@@ -27,7 +27,7 @@ export default function Edu() {
         <hr className="my-3 border-0 h-px"/>
         <h1 id='tagline' className='font-semibold text-2xl font-sans my-10'> my coursework 📚 </h1>
         <p className="paragraph">
-            In the fall, I plan to take <i>CS 229: Machine Learning</i>, <i>Dance 46: Social Dance 1</i> and do some research. For my remaining coursework, I did my best to pull out my favorite course highlights. 
+            I'm currently taking <i>CS 237a: Autonomous Robotics</i>, <i>CS 224W: Graph Learning</i> and <i>Physics 131: Intermediate Quantum Mechanics</i>. For my previous coursework, I did my best to pull out my favorite course highlights. 
             <br /> <br />
         </p>
         <ul className="list-disc paragraph">
@@ -52,6 +52,8 @@ export default function Edu() {
             <b>Computer Science</b>
             <li className="ml-5 paragraph">161: Design and Analysis of Algorithms - asymptotic analysis, efficient search and storage, graph traversal, dynamic programming and randomization. </li>
             <li className="ml-5">221: Artificial Intelligence - constraint satisfaction, markov decision processes, logic with final project on <a href="https://docs.google.com/document/d/1NCAb6EXuRm02_nIx5v8mpftQBazq4Pc8EvEzMyRddys/edit?usp=sharing" target="_blank">Estimating Task Uncertainty in Robotics</a>. </li>
+            <li className="ml-5">224R: Deep Reinforcement Learning - reward learning, goal conditioned RL, imitation learning. Trained a <a href='https://github.com/devin-gupta/self-play' target="_blank">diffusion based hierarchical imitation learning model</a>. </li>
+            <li className="ml-5">230: Deep Learning - hyperparameter tuning, convolutional neural networks and best practices in deep networks with Prof. Andrew Ng, final project on <a href='https://github.com/devin-gupta/robopt' target="_blank">Multi-Agent Bidding</a>. </li>
             <br />
             <b>SLE</b>
             <li className="ml-5">91: SLE Fall - Gilgamesh, Homer's Odyssey, Plato and Aristotle, Qu'ran, Yuri Herrera's Signs taught by Michaela Hulstyn. </li>

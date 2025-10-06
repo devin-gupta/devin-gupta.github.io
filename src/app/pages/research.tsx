@@ -4,6 +4,8 @@ export default function Research() {
         <h1 id='tagline' className='font-semibold text-2xl font-sans my-10'> my research 🥼 </h1>
         <p id='bio' className='paragraph'> 
           I'm currently learning about multi-agent interaction within robotics. Specifically, how does machine learning allow us to learn from mistakes and achieve broader task generalization? <br /> <br /> 
+          {/* physics nanoparticle classication model */}
+          {/* nv diamond centers */}
             {/* SAIL */}
             <b><a href="https://ai.stanford.edu/" target="_blank">Stanford Artificial Intelligence Labratory</a></b> @ Stanford<br />
             (Oct 2023 - Feb 2024): Developing robust imitation learning with mode switching to prevent compounding distributional shifts in evaluation, focusing on human-robot interaction based learning within Prof. Dorsa Sadigh’s lab <a href="https://iliad.stanford.edu/" target="_blank">ILIAD</a>, under PhD Joey Hejna. &emsp; <br />
@@ -23,7 +25,7 @@ export default function Research() {
             <b><a href="https://cyber.fsi.stanford.edu/io" target="_blank">Internet Observatory</a></b> @ Stanford<br />
             (Summer 2022): Conducted quantitative and qualitative coding of foreign news headlines to determine institutional causality (the involvement of authoritarian regimes like the PRC)  
             under <a href="https://knight-hennessy.stanford.edu/people/matt-debutts" target="_blank">PhD Matt Debutts</a> and <a href="https://politicalscience.stanford.edu/people/jennifer-pan" target="_blank">Prof. Jennifer Pan</a>.&emsp; <br />
-            [ <em><a href="https://docs.google.com/presentation/d/1XvxRmGF95KTKnOJkRa8Zj-Un9t7EcFRpgz0aEb838_M/edit?usp=sharing" target="_blank">slides</a></em> ]
+            [ <em><a href="https://jenpan.com/jen_pan/foreigncorr.pdf" target="_blank">paper</a></em> , <em><a href="https://docs.google.com/presentation/d/1XvxRmGF95KTKnOJkRa8Zj-Un9t7EcFRpgz0aEb838_M/edit?usp=sharing" target="_blank">slides</a></em> ]
                 <br /> <br />
             {/* Internet Observatory */}
             <b><a href="https://www.bloom.li/advocacy/research/bayareanewscollective" target="_blank">Bay Area News Collective</a></b> @ Code for San Jose<br />
