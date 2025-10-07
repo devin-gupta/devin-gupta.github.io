@@ -2,7 +2,7 @@ export default function Edu() {
     return (
       <div>
         <h1 id='tagline' className='font-semibold text-2xl font-sans my-10'> my education ✍🏽 </h1>
-        <p id='bio' className='paragraph'> I'm currently a junior at <a href="https://www.stanford.edu/" target="_blank">Stanford</a> pursuing degrees in <b>Physics</b> and <b>Computer Science</b> with a minor in <b>Math</b>. These broadly map to my academic interests in decentralized networking and algorithimic thinking, within the fields of robotics, market design and climate-tech.
+        <p id='bio' className='paragraph'> I'm currently a senior at <a href="https://www.stanford.edu/" target="_blank">Stanford</a> pursuing degrees in <b>Physics</b> and <b>Computer Science</b> with a minor in <b>Math</b>. These broadly map to my academic interests in decentralized networking and algorithimic thinking, within the fields of robotics, market design and climate-tech.
         <br />
         </p>
         <p className='paragraph'>
