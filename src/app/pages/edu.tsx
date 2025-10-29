@@ -2,7 +2,7 @@ export default function Edu() {
     return (
       <div>
         <h1 id='tagline' className='font-semibold text-2xl font-sans my-10'> my education ✍🏽 </h1>
-        <p id='bio' className='paragraph'> I'm currently a senior at <a href="https://www.stanford.edu/" target="_blank">Stanford</a> pursuing degrees in <b>Physics</b> and <b>Computer Science</b> with a minor in <b>Math</b>. These broadly map to my academic interests in decentralized networking and algorithimic thinking, within the fields of robotics, market design and climate-tech.
+        <p id='bio' className='paragraph'> I'm currently a senior at <a href="https://www.stanford.edu/" target="_blank">Stanford</a> pursuing degrees in <b>Physics</b> and <b>Computer Science</b>. These fields enable me to practice first-principles thinking and broadly map to my academic interests in robotics, decentralized networks and market design.
         <br />
         </p>
         <p className='paragraph'>
@@ -27,42 +27,52 @@ export default function Edu() {
         <hr className="my-3 border-0 h-px"/>
         <h1 id='tagline' className='font-semibold text-2xl font-sans my-10'> my coursework 📚 </h1>
         <p className="paragraph">
-            I'm currently taking <i>CS 237a: Autonomous Robotics</i>, <i>CS 224W: Graph Learning</i> and <i>Physics 131: Intermediate Quantum Mechanics</i>. For my previous coursework, I did my best to pull out my favorite course highlights. 
+            I'm currently taking <i>CS 237a: Autonomous Robotics</i>, <i>CS 224W: Graph Learning</i>, <i>POLISCI 33SI: Innovating for an Effective Government</i> and <i>Physics 131: Intermediate Quantum Mechanics</i>. For my previous coursework, I did my best to pull out my favorite course highlights. 
             <br /> <br />
         </p>
         <ul className="list-disc paragraph">
             <b>Physics</b>
-            <li className="ml-5">61: Mechanics and Special Relativity - Lorentz transformations, space-time invariance and causality, by Prof. Pat Burchat!</li>
-            <li className="ml-5">71: Quantum and Thermal Physics - uncertainty principle, wave equations, fourier transforms and some stat mech. </li>
-            <li className="ml-5">81: E&M using Special Relativity and Vector Calculus - symmetry proofs, Maxwell's equations, electromagnetic waves. </li>
-            <li className="ml-5">112: Mathematical Models for Physics - group theory and complex analysis by Professor Kivelson. </li>
-            <li className="ml-5">113: Computational Physics - monte carlo and numerical methods for PDEs including stability analysis, with final paper on <a href="https://github.com/devin-gupta/class_notes/blob/main/physics113/Quantum_Algos_Final/README.md" target="_blank">implementing Shor's and Grover's algorithms</a>. </li>
-            <br />
+                <li className="ml-5">61: Mechanics and Special Relativity - Lorentz transformations, space-time invariance and causality, by Prof. Pat Burchat!</li>
+                <li className="ml-5">71: Quantum and Thermal Physics - uncertainty principle, wave equations, fourier transforms and some stat mech. </li>
+                <li className="ml-5">81: E&M using Special Relativity and Vector Calculus - symmetry proofs, Maxwell's equations, electromagnetic waves. </li>
+                <li className="ml-5">108: Advanced Laboratory Project - lots of hours in the lab experimenting with lasers and NV diamond centers in pursuit of a <a href='https://www.overleaf.com/project/6837856f461ebe98654100b0' target="_blank">room-temperature qubit ensemble</a>. </li>
+                <li className="ml-5">112: Mathematical Models for Physics - group theory and complex analysis by Professor Kivelson. </li>
+                <li className="ml-5">113: Computational Physics - monte carlo and numerical methods for PDEs including stability analysis, with final paper on <a href="https://github.com/devin-gupta/class_notes/blob/main/physics113/Quantum_Algos_Final/README.md" target="_blank">implementing Shor's and Grover's algorithms</a>. </li>
+                <li className="ml-5">120: Intermediate E&M - electrostatic fields and deriving maxwell's equations. </li>
+                <li className="ml-5">130 and 131: Quantum Mechanics I and II - more uncertainty principles, solving hydrogen atom, time-dependent perturbation theory and time-energy symmetries. </li>
+                <br />
             <b>Math</b>
-            <li className="ml-5">51: Linear Algebra & Multivariable Calculus - matrix algebra, gradient optimization, some Markov chains. </li>
-            <li className="ml-5">52: Integral Calculus of Several Variables - Gauss and Stokes's thereoms.  </li>
-            <li className="ml-5">53: Differential Equations with Linear Algebra and Fourier Methods - stability analysis, BVPs and fourier transforms by Prof. Asserian : )  </li>
-            <li className="ml-5">131P: Partial Differential Equations  - Sturm-Liouville Problems... wrote a <a href="https://drive.google.com/file/d/1F9y5sjOcsVxhPIltkMLeGRoPRCeXf2JI/view?usp=sharing" target="_blank">final paper on Schrödinger's Equation</a>.  </li>
-            <br />
-            <b>MS&E</b>
-            <li className="ml-5 paragraph">148: Ethics of Finance - guest speakers included Rob Chestnut (Airbnb General Counsel) and Michele Korver (Crypto Regulatory at a16z) with a <a href="https://docs.google.com/presentation/d/1vNOSGU_Hurs3QGqitZhFfEmPLZ_PxAYsORS5ZKmVr6g/edit?usp=sharing" target="_blank">final report</a>.</li>
-            <li className="ml-5">135: Networks - graph theory, information diffusion, aggregate behavior in markets and crowds, I added to <a href="https://web.stanford.edu/group/msande135/cgi-bin/wp/" target="_blank">course blog</a>. </li>
-            <li className="ml-5">232: Intro to Game Theory - more rigorous treatment of infinite and finite games, some mechanism design by Prof. Ramesh Johari. </li>
-            <br />
+                <li className="ml-5">51: Linear Algebra & Multivariable Calculus - matrix algebra, gradient optimization, some Markov chains. </li>
+                <li className="ml-5">52: Integral Calculus of Several Variables - Gauss and Stokes's thereoms.  </li>
+                <li className="ml-5">53: Differential Equations with Linear Algebra and Fourier Methods - stability analysis, BVPs and fourier transforms by Prof. Asserian : )  </li>
+                <li className="ml-5">131P: Partial Differential Equations  - Sturm-Liouville Problems... wrote a <a href="https://drive.google.com/file/d/1F9y5sjOcsVxhPIltkMLeGRoPRCeXf2JI/view?usp=sharing" target="_blank">final paper on Schrödinger's Equation</a>.  </li>
+                <br />
             <b>Computer Science</b>
-            <li className="ml-5 paragraph">161: Design and Analysis of Algorithms - asymptotic analysis, efficient search and storage, graph traversal, dynamic programming and randomization. </li>
-            <li className="ml-5">221: Artificial Intelligence - constraint satisfaction, markov decision processes, logic with final project on <a href="https://docs.google.com/document/d/1NCAb6EXuRm02_nIx5v8mpftQBazq4Pc8EvEzMyRddys/edit?usp=sharing" target="_blank">Estimating Task Uncertainty in Robotics</a>. </li>
-            <li className="ml-5">224R: Deep Reinforcement Learning - reward learning, goal conditioned RL, imitation learning. Trained a <a href='https://github.com/devin-gupta/self-play' target="_blank">diffusion based hierarchical imitation learning model</a>. </li>
-            <li className="ml-5">230: Deep Learning - hyperparameter tuning, convolutional neural networks and best practices in deep networks with Prof. Andrew Ng, final project on <a href='https://github.com/devin-gupta/robopt' target="_blank">Multi-Agent Bidding</a>. </li>
-            <br />
+                <li className="ml-5">131: Computer Vision - pose estimation, 3d object segmentation, with final project on using <a href="https://www.overleaf.com/project/67dec024aa8c8182eac65721" target="_blank">CNNs for Nanoparticle classification via XFEL Diffraction Interference</a>. </li>
+                <li className="ml-5 paragraph">161: Design and Analysis of Algorithms - asymptotic analysis, efficient search and storage, graph traversal, dynamic programming and randomization. </li>
+                <li className="ml-5">221: Artificial Intelligence - constraint satisfaction, markov decision processes, logic with final project on <a href="https://docs.google.com/document/d/1NCAb6EXuRm02_nIx5v8mpftQBazq4Pc8EvEzMyRddys/edit?usp=sharing" target="_blank">Estimating Task Uncertainty in Robotics</a>. </li>
+                <li className="ml-5">224R: Deep Reinforcement Learning - reward learning, goal conditioned RL, imitation learning. Trained a <a href='https://github.com/devin-gupta/self-play' target="_blank">diffusion based hierarchical imitation learning model</a>. </li>
+                <li className="ml-5">230: Deep Learning - hyperparameter tuning, convolutional neural networks and best practices in deep networks with Prof. Andrew Ng, final project on <a href='https://github.com/devin-gupta/robopt' target="_blank">Multi-Agent Bidding</a>. </li>
+                <br />
+            <b>MS&E / GSB </b>
+                <li className="ml-5 paragraph">148: Ethics of Finance - guest speakers included Rob Chestnut (Airbnb General Counsel) and Michele Korver (Crypto Regulatory at a16z) with a <a href="https://docs.google.com/presentation/d/1vNOSGU_Hurs3QGqitZhFfEmPLZ_PxAYsORS5ZKmVr6g/edit?usp=sharing" target="_blank">final report</a>.</li>
+                <li className="ml-5">135: Networks - graph theory, information diffusion, aggregate behavior in markets and crowds, I added to <a href="https://web.stanford.edu/group/msande135/cgi-bin/wp/" target="_blank">course blog</a>. </li>
+                <li className="ml-5">232: Intro to Game Theory - more rigorous treatment of infinite and finite games, some mechanism design by Prof. Ramesh Johari. </li>
+                <li className="ml-5">105: Strategic Management in Entreprenuerial Ventures - former GSB Dean Garth Saloner's case studies on Doordash (Founder Tony Xu and Seed Alfred Lin), Nextdoor (CEO Sarah Friar) and Smitten Ice Cream (Founder Robyn Sue Fisher). </li>
+                <li className="ml-5">102: Future of Payments - correspondent banking, mobile wallets, central bank digital currencies and stablecoins by GSB Prof. Darrell Duffie. </li>
+                <br />
             <b>SLE</b>
-            <li className="ml-5">91: SLE Fall - Gilgamesh, Homer's Odyssey, Plato and Aristotle, Qu'ran, Yuri Herrera's Signs taught by Michaela Hulstyn. </li>
-            <li className="ml-5">92: SLE Winter - Sir Gawain, Dante's Inferno, Descartes's Meditations, Frankenstein taught by Michaela Hulstyn, wrote a  <a href="https://docs.google.com/document/d/1RHujxWkijo6mPOjdulMjydN5-P3MUZ_X1zWaCwN9-V0/edit?usp=sharing" target="_blank">paper on Bruegel's Fall of Icarus</a>. </li>
-            <li className="ml-5">93: SLE Spring - Marx, Baldwin's Stranger in the Village, Freud, Surrealism, Sartre's Existentialism and Fanon's Wretched of the Earth taught by Jeremy Sabol. Wrote 20 pages on <a href="https://docs.google.com/document/d/1O2s6astXeBo5KzEBDFkLncPV6G1aB5so_JMefSQt0TI/edit?usp=sharing" target="_blank">Marx, Labor Networks and Opportunity Insights</a>. </li>
-            <br />
+                <li className="ml-5">91: SLE Fall - Gilgamesh, Homer's Odyssey, Plato and Aristotle, Qu'ran, Yuri Herrera's Signs taught by Michaela Hulstyn. </li>
+                <li className="ml-5">92: SLE Winter - Sir Gawain, Dante's Inferno, Descartes's Meditations, Frankenstein taught by Michaela Hulstyn, wrote a  <a href="https://docs.google.com/document/d/1RHujxWkijo6mPOjdulMjydN5-P3MUZ_X1zWaCwN9-V0/edit?usp=sharing" target="_blank">paper on Bruegel's Fall of Icarus</a>. </li>
+                <li className="ml-5">93: SLE Spring - Marx, Baldwin's Stranger in the Village, Freud, Surrealism, Sartre's Existentialism and Fanon's Wretched of the Earth taught by Jeremy Sabol. Wrote 20 pages on <a href="https://docs.google.com/document/d/1O2s6astXeBo5KzEBDFkLncPV6G1aB5so_JMefSQt0TI/edit?usp=sharing" target="_blank">Marx, Labor Networks and Opportunity Insights</a>. </li>
+                <br />
             <b>Other</b>
-            <li className="ml-5">English 66: A Model Island - historical perspectives of the UK with <a href="https://docs.google.com/document/u/1/d/1hGR1cjvm0V3HP0jLQ-wqZ-vsul_thsdQZNFj5dWMlR0/edit?pli=1" target="_blank">a couple papers</a>. </li>
-            <li className="ml-5">Design 245: Redesigning Finance - user-centered and iterative design focused on <a href="https://docs.google.com/presentation/d/1xsAd946Tqz8vV-Io-JghnQ2mVrLAZYfkIZ9hvh1RI9c/edit?usp=sharing" target="_blank">new-grad wealth management</a> under Prof. Brandon Middleton and Prof. Bruce Cahan. </li>
+                <li className="ml-5">English 66: A Model Island - historical perspectives of the UK with <a href="https://docs.google.com/document/u/1/d/1hGR1cjvm0V3HP0jLQ-wqZ-vsul_thsdQZNFj5dWMlR0/edit?pli=1" target="_blank">a couple papers</a>. </li>
+                <li className="ml-5">Design 245: Redesigning Finance - user-centered and iterative design focused on <a href="https://docs.google.com/presentation/d/1xsAd946Tqz8vV-Io-JghnQ2mVrLAZYfkIZ9hvh1RI9c/edit?usp=sharing" target="_blank">new-grad wealth management</a> under Prof. Brandon Middleton and Prof. Bruce Cahan. </li>
+                <li className="ml-5">Artstudi 151: Sculpture - one of my favorite classes, <a href='https://drive.google.com/drive/folders/1ie6VbqA0R1vuy2ZWj2RZPrqePkJ8TwTL?usp=sharing' target="_blank">free-play in stanford's beautiful art studio</a> with Prof. Kerri Conlon. </li>
+                <li className="ml-5">AA 160: Private Pilot Ground School - first step towards my private pilot license, must more be said? </li>
+                <li className="ml-5">Oceans 165: Tinkering in Marine Science - built OpenCTD sensor and went experimenting at Stanford's Hopkins Marine Station. </li>
+                <li className="ml-5">History 3F: Modern Military History - military revolutions, 'western' ways of war and wrote final paper on <a href="https://docs.google.com/document/d/19fl-W-Y2EOrsUeRQ-7boAbDG43cQ2zxGjjea3PSl80o/edit?usp=sharing" target="_blank">digital intelligence strategies</a>. </li>
         </ul>
         <br />
         <p id='bio' className='paragraph'>If you have course suggestions or questions, please do <a href="mailto:devgupta@stanford.edu" target="_blank">reach out</a>.</p>
