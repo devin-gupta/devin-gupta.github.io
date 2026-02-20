@@ -1,7 +1,7 @@
 export default function Edu() {
     return (
       <div>
-        <h1 id='tagline' className='font-semibold text-2xl font-sans my-10'> my education ✍🏽 </h1>
+        <h1 id='tagline' className='font-semibold text-2xl font-sans mt-10 mb-4'> my education ✍🏽 </h1>
         <p id='bio' className='paragraph'> I'm currently a senior at <a href="https://www.stanford.edu/" target="_blank">Stanford</a> pursuing degrees in <b>Physics</b> and <b>Computer Science</b>. These fields enable me to practice first-principles thinking and broadly map to my academic interests in robotics, decentralized networks and market design.
         <br />
         </p>
@@ -25,9 +25,9 @@ export default function Edu() {
             <br /> <br />
         </p>
         <hr className="my-3 border-0 h-px"/>
-        <h1 id='tagline' className='font-semibold text-2xl font-sans my-10'> my coursework 📚 </h1>
+        <h1 id='tagline' className='font-semibold text-2xl font-sans mt-10 mb-4'> my coursework 📚 </h1>
         <p className="paragraph">
-            I'm currently taking <i>CS 237a: Autonomous Robotics</i>, <i>CS 224W: Graph Learning</i>, <i>POLISCI 33SI: Innovating for an Effective Government</i> and <i>Physics 131: Intermediate Quantum Mechanics</i>. For my previous coursework, I did my best to pull out my favorite course highlights. 
+            I'm currently taking <i>CS 246: Mining Massive Datasets</i>, <i>Physics 170: Statistical Mechanics and Thermodynamics</i>, <i>Physics 191: Writing in Physics</i>, and <i>CS 107: Systems Programming</i>. For my previous coursework, I did my best to pull out my favorite course highlights. 
             <br /> <br />
         </p>
         <ul className="list-disc paragraph">

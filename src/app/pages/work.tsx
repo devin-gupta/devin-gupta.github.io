@@ -1,7 +1,7 @@
 export default function Work() {
     return (
       <div>
-        <h1 id='tagline' className='font-semibold text-2xl font-sans my-10'> my work 💼 </h1>
+        <h1 id='tagline' className='font-semibold text-2xl font-sans mt-10 mb-4'> my work 💼 </h1>
         <p id='bio' className='paragraph'> 
             {/* Much of my experience has been in 'computational social science', applying engineering skills to ensure our political and social systems work effectively.  */}
             For the most updated verson of my work history, please check out my <a href="https://www.linkedin.com/in/devin-gupta/" target="_blank">Linkedin</a> or my <a href="https://docs.google.com/document/d/1-0lO2Nq_y5oTgNPq-1ncS7WvLHkF6KrgIg3cMTMywuY/edit?usp=sharing" target="_blank">resume</a>.  

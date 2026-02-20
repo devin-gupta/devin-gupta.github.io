@@ -1,7 +1,7 @@
 export default function Research() {
     return (
       <div>
-        <h1 id='tagline' className='font-semibold text-2xl font-sans my-10'> my research 🥼 </h1>
+        <h1 id='tagline' className='font-semibold text-2xl font-sans mt-10 mb-4'> my research 🥼 </h1>
         <p id='bio' className='paragraph'> 
           I'm currently learning about multi-agent interaction within robotics. Specifically, how does machine learning allow us to learn from mistakes and achieve broader task generalization? <br /> <br /> 
           {/* physics nanoparticle classication model */}
