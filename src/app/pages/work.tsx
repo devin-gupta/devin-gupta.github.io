@@ -6,6 +6,25 @@ export default function Work() {
             {/* Much of my experience has been in 'computational social science', applying engineering skills to ensure our political and social systems work effectively.  */}
             For the most updated verson of my work history, please check out my <a href="https://www.linkedin.com/in/devin-gupta/" target="_blank">Linkedin</a> or my <a href="https://docs.google.com/document/d/1-0lO2Nq_y5oTgNPq-1ncS7WvLHkF6KrgIg3cMTMywuY/edit?usp=sharing" target="_blank">resume</a>.  
         </p>
+        {/* parallel web systems */}
+        <p id='bio' className='paragraph'>
+            <br />
+            <b>Member Of Technical Staff</b> @ <a href="https://parallel.ai/" target="_blank">Parallel Web Systems</a><br />
+            (Current): Building the world's best web research agents with an incredible <a href="https://pioneers.parallel.ai/" target="_blank">team, customers and investors</a>. I've been primarily focusing on:
+        </p>
+        <ul className="list-disc paragraph"> <br />
+            <li className="ml-5"><i> Research Agent Post-training:</i> spearheading efforts to peft open source models, focusing on tool-use, harness-model codesign, looped architectures and inference efficiency. </li>
+            <li className="ml-5"><i> Parallel's <a href="https://parallel.ai/blog/introducing-index-by-parallel" target="_blank">Index</a>:</i> integrating first-party data partnerships into our highest tier processors, and enabling agents to operate beyond the web.</li>
+            <br />
+        </ul>
+        <div className="grid grid-cols-2 gap-4">
+            <div>
+                <img className="h-auto max-w-full rounded-lg" src="/images/parallel_sf_office.jpg" alt="" />
+            </div>
+            <div>
+                <img className="h-auto max-w-full rounded-lg" src="/images/parallel_agent_pod.jpg" alt="" />
+            </div>
+        </div>
         {/* DISTYL AI */}
         <p id='bio' className='paragraph'>
             <br />

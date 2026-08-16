@@ -28,5 +28,8 @@
     "tailwindcss": "^3.4.19",
     "tailwindcss-animate": "^1.0.6",
     "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@webgpu/types": "^0.1.71"
   }
 }

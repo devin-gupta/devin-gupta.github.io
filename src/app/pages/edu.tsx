@@ -2,7 +2,7 @@ export default function Edu() {
     return (
       <div>
         <h1 id='tagline' className='font-semibold text-2xl font-sans mt-10 mb-4'> my education ✍🏽 </h1>
-        <p id='bio' className='paragraph'> I'm currently a senior at <a href="https://www.stanford.edu/" target="_blank">Stanford</a> pursuing degrees in <b>Physics</b> and <b>Computer Science</b>. These fields enable me to practice first-principles thinking and broadly map to my academic interests in robotics, decentralized networks and market design.
+        <p id='bio' className='paragraph'> I graduated from <a href="https://www.stanford.edu/" target="_blank">Stanford</a> where I studied <b>Physics</b> and got my masters in <b>Computer Science</b>. These fields enable me to practice first-principles thinking and broadly map to my academic interests in machine learning, robotics, networks and market design.
         <br />
         </p>
         <p className='paragraph'>
@@ -19,7 +19,7 @@ export default function Edu() {
             <br /><br />
             I've also been lucky to be able to attend some amazing conferences like <a href='https://openai.com/devday/' target="_blank">OpenAI DevDay</a>, Horizon Quantum's Triple Alpha launch, Citadel's 2024 Trading Invitational, TechCrunch Disrupt 2023, GCP's Fall Workshop and Cal Hacks. For any journalists, I'm an alum of <a href="https://www.medill.northwestern.edu/journalism/high-school-programs/medill-cherubs.html" target="_blank">Medill's Cherubs program</a> and have attended many JEA, NSPA and SNO workshops.
             <br /><br />
-            I'm currently learning Spanish and Mandarin at Stanford, and speak (some) Hindi and English. And I like to play the acoustic guitar sometimes - currently learning '<a href="https://tabs.ultimate-guitar.com/tab/john-mayer/slow-dancing-in-a-burning-room-tabs-449994" target="_blank">Slow Dancing in a Burning Room</a>' by John Mayer.
+            I tried learning Spanish and Mandarin at Stanford, and speak (some) Hindi and English. And I like to play the acoustic guitar sometimes - currently learning '<a href="https://tabs.ultimate-guitar.com/tab/john-mayer/slow-dancing-in-a-burning-room-tabs-449994" target="_blank">Slow Dancing in a Burning Room</a>' by John Mayer.
             <br /><br />
             My resume is linked <a href="https://docs.google.com/document/d/1-0lO2Nq_y5oTgNPq-1ncS7WvLHkF6KrgIg3cMTMywuY/edit?usp=sharing" target="_blank">here</a>.
             <br /> <br />
@@ -27,7 +27,7 @@ export default function Edu() {
         <hr className="my-3 border-0 h-px"/>
         <h1 id='tagline' className='font-semibold text-2xl font-sans mt-10 mb-4'> my coursework 📚 </h1>
         <p className="paragraph">
-            I'm currently taking <i>CS 246: Mining Massive Datasets</i>, <i>Physics 170: Statistical Mechanics and Thermodynamics</i>, <i>Physics 191: Writing in Physics</i>, and <i>CS 107: Systems Programming</i>. For my previous coursework, I did my best to pull out my favorite course highlights. 
+            As mentors of mine have done, I did my best to pull out my favorite course highlights. 
             <br /> <br />
         </p>
         <ul className="list-disc paragraph">
@@ -53,6 +53,7 @@ export default function Edu() {
                 <li className="ml-5">221: Artificial Intelligence - constraint satisfaction, markov decision processes, logic with final project on <a href="https://docs.google.com/document/d/1NCAb6EXuRm02_nIx5v8mpftQBazq4Pc8EvEzMyRddys/edit?usp=sharing" target="_blank">Estimating Task Uncertainty in Robotics</a>. </li>
                 <li className="ml-5">224R: Deep Reinforcement Learning - reward learning, goal conditioned RL, imitation learning. Trained a <a href='https://github.com/devin-gupta/self-play' target="_blank">diffusion based hierarchical imitation learning model</a>. </li>
                 <li className="ml-5">230: Deep Learning - hyperparameter tuning, convolutional neural networks and best practices in deep networks with Prof. Andrew Ng, final project on <a href='https://github.com/devin-gupta/robopt' target="_blank">Multi-Agent Bidding</a>. </li>
+                <li className="ml-5">224W: ML on Graphs - GNNs, recommendation systems, in-context graph learning by Professor Leskovec (<a href="https://scholar.google.com/citations?hl=en&user=Q_kKkIUAAAAJ" target="_blank">the og in graph ML</a>), final project on <a href="https://github.com/devin-gupta/cs224w-graph-transformers" target="_blank">ETH transaction prediction</a>. </li>
                 <br />
             <b>MS&E / GSB </b>
                 <li className="ml-5 paragraph">148: Ethics of Finance - guest speakers included Rob Chestnut (Airbnb General Counsel) and Michele Korver (Crypto Regulatory at a16z) with a <a href="https://docs.google.com/presentation/d/1vNOSGU_Hurs3QGqitZhFfEmPLZ_PxAYsORS5ZKmVr6g/edit?usp=sharing" target="_blank">final report</a>.</li>
