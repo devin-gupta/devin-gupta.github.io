@@ -11,7 +11,9 @@ export default function Research() {
             (Oct 2023 - Feb 2024): Developing robust imitation learning with mode switching to prevent compounding distributional shifts in evaluation, focusing on human-robot interaction based learning within Prof. Dorsa Sadigh’s lab <a href="https://iliad.stanford.edu/" target="_blank">ILIAD</a>, under PhD Joey Hejna. &emsp; <br />
             [ <em>upcoming</em> ]
                 <br /> <br />
-            <hr className="my-3 border-0 h-px"/>
+        </p>
+        <hr className="my-3 border-0 h-px"/>
+        <p className='paragraph'>
             <br />
             I've also done some research within computational social science, applying data analysis skills to ensure our political and social systems work effectively. 
             {/* For the most updated verson of my research history, please check out my <a href="https://www.linkedin.com/in/devin-gupta/" target="_blank">Linkedin</a> or my <a href="https://docs.google.com/document/d/1-0lO2Nq_y5oTgNPq-1ncS7WvLHkF6KrgIg3cMTMywuY/edit?usp=sharing" target="_blank">resume</a>.   */}

@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import GoogleAnalytics from '@/components/seo/GoogleAnalytics'
 import PageTracker from '@/components/seo/PageTracker';
+import VectorFieldBackground from '@/components/VectorFieldBackground';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -56,8 +57,11 @@ export default function RootLayout({
         <meta property="og:image:height" content="630" />
       </head>
       <body className={inter.className}>
-        <PageTracker />
-        {children}
+        <VectorFieldBackground />
+        <div className="relative z-10 bg-transparent">
+          <PageTracker />
+          {children}
+        </div>
       </body>
     </html>
   )
